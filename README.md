@@ -1,11 +1,10 @@
 ## Guidelines for torrent-based preservation
 
-
 - If most files are relatively small, they should be bundled together in torrents of around 15–30 GB each.
 
-  - Few people will seed 400 individual torrents at once; 40 is a possibility. 
+  - Few people will seed 400 individual torrents at once; 40 is a possibility.
   - People will righteously complain about this arrangement; the point is that these torrents are aimed at preservation, not individual use.
-- Each bundle should be roughly . Larger datasets should be issued on their own (i.e., as a "bundle" containing a single dataset). 
+- Each bundle should be roughly . Larger datasets should be issued on their own (i.e., as a "bundle" containing a single dataset).
 - Bundles should be issued in a numbered series, with new additions added periodically to include new datasets.
  - Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
 - Material should not be bundled thematically, except by chronology. Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to bundles chronologically.
@@ -22,7 +21,7 @@
 
 ## Benefits of torrent-based preservation
 
-People don't have to mirror the full set; they can dl one or two torrents and still contribute 
+People don't have to mirror the full set; they can dl one or two torrents and still contribute
 
 Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
 
@@ -36,6 +35,3 @@ Centralized to keep people orchestrated; decentralized enough to afford future m
 Tenen and Foxman paper
 
 kolhoz
-
-
-
