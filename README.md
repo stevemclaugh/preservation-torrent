@@ -1,7 +1,5 @@
 ## Guidelines for torrent-based preservation
 
-[Setup guide for creating and seeding a torrent on a VPS](Setup.md)
-
 - **Small files should be bundled in groups of 10–20 gigabytes.**
 
   - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
@@ -24,10 +22,10 @@
 
     - DataRefuge\_001/
         - _md5list.chk
-        - dataset\_123.zip
-        - dataset\_123.json
-        - dataset\_xyz.zip
-        - dataset\_xyz.json
+        - dataset-uuid123.zip
+        - dataset-uuid123.json
+        - dataset-uuidxyz.zip
+        - dataset-uuidxyz.json
         - ...
         - README.txt
     - DataRefuge_002/
@@ -40,8 +38,8 @@
 
 - DataRefuge\_099/
     - _md5list.chk
-    - dataset\_foo.zip
-    - dataset_foo.json
+    - 50GB-database-uuid.zip
+    - 50GB-database-uuid.json
     - README.txt
 
 
@@ -58,13 +56,9 @@
     - Each torrent should be capped at 400–500 individual files.
 
 
-- Choose discreet filenames. The content of a file is a bit less likely to be indexed in a metadata search/surveillance sweep.
-    - individual torrents are vulnerable to poisoning attacks
+- *Include a checksum for each file in each torrent.*
 
-- Include a checksum for each file in each torrent — can be checked easily and used to verify that your local copy is the most recent version of a file (in case a change has been made)
-
-
-- If a file needs to be removed/revised, just create a new torrent file and link to it.
+- *If a file needs to be removed/revised, just create a new torrent file and link to it.*
 
 
 ## Benefits of torrent-based preservation
@@ -78,6 +72,7 @@ A limited set of sequentially numbered volumes stirs up a desire for completenes
 Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
 
 
+[*Setup guide for creating and seeding a torrent on a VPS*](Setup.md)
 
 
 Tenen and Foxman paper
