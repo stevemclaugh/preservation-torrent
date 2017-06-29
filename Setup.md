@@ -1,5 +1,11 @@
 #Preservation-torrent docker notes
 
+
+```
+ufw allow 9091 51413
+```
+
+
 ```
 docker rm -f transmission
 

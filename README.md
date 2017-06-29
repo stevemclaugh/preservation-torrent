@@ -1,15 +1,41 @@
 ## Guidelines for torrent-based preservation
 
-- If most files are relatively small, they should be bundled together in torrents of around 15–30 GB each.
-  - Few people will seed 400 individual torrents at once; 40 is a possibility.
-  - People will righteously complain about this arrangement; the point is that these torrents are aimed at preservation, not individual use.
+- **Small files should be bundled in groups of 10–20 gigabytes.**
+
+  - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+
+  - Bundling decreases the odds that individual (poorly seeded) torrents will slip through the cracks and disappear.
+
+  - The point of bundling is that these torrents are aimed at preservation, not everyday use.
+
+    - It's possible to download individual files from within torrents, but if too many people do so it can compromise the health of the swarm.
 
 
-- Each bundle should be roughly . Larger datasets should be issued on their own (i.e., as a "bundle" containing a single dataset).
+- **Bundles should be issued in a numbered series, with new additions added periodically to include new datasets.**
 
-- Bundles should be issued in a numbered series, with new additions added periodically to include new datasets.
+    - DataRefuge_001.torrent
+    - DataRefuge_002.torrent
+    - DataRefuge_003.torrent
+    - ...
 
- - Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
+- **Each torrent contains a single directory containing datasets and metadata**
+
+    - DataRefuge\_001/
+        - _md5list.chk
+        - dataset\_123.zip
+        - dataset\__123.json
+        - dataset\_xyz.zip
+        - dataset\__xyz.json
+        - ...
+        - README.txt
+    - DataRefuge_002/
+    - DataRefuge_003/
+    - ...
+
+
+- **Larger datasets can be issued on their own, as a "bundle" containing a single dataset).**
+
+
 
 - Material should not be bundled thematically, except by chronology. Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to bundles chronologically.
 
@@ -40,3 +66,6 @@ Centralized to keep people orchestrated; decentralized enough to afford future m
 Tenen and Foxman paper
 
 kolhoz
+
+
+ - Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
