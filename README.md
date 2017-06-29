@@ -1,5 +1,7 @@
 ## Guidelines for torrent-based preservation
 
+[Setup guide for creating and seeding a torrent on a VPS](Setup.md)
+
 - **Small files should be bundled in groups of 10–20 gigabytes.**
 
   - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
@@ -23,9 +25,9 @@
     - DataRefuge\_001/
         - _md5list.chk
         - dataset\_123.zip
-        - dataset\__123.json
+        - dataset\_123.json
         - dataset\_xyz.zip
-        - dataset\__xyz.json
+        - dataset\_xyz.json
         - ...
         - README.txt
     - DataRefuge_002/
@@ -33,13 +35,28 @@
     - ...
 
 
-- **Larger datasets can be issued on their own, as a "bundle" containing a single dataset).**
+- **Larger datasets can be issued on their own, as a numbered bundle containing a single dataset.**
 
 
+- DataRefuge\_099/
+    - _md5list.chk
+    - dataset\_foo.zip
+    - dataset_foo.json
+    - README.txt
 
-- Material should not be bundled thematically, except by chronology. Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to bundles chronologically.
 
-- The fewer individual files in a torrent bundle, the better. If each torrent points to 1000 files, people's clients may crash.
+- **Material should not be bundled thematically.**
+
+    - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
+
+    - Instead, assign datasets to bundles chronologically.
+
+- **The fewer individual files in a torrent bundle, the better.**
+
+    - If each torrent points to 1000 files, people's clients may crash.
+
+    - Each torrent should be capped at 400–500 individual files.
+
 
 - Choose discreet filenames. The content of a file is a bit less likely to be indexed in a metadata search/surveillance sweep.
     - individual torrents are vulnerable to poisoning attacks
