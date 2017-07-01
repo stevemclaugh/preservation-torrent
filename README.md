@@ -58,6 +58,8 @@
 
 - *Include a checksum for each file in each torrent.*
 
+- *Filenames need not be human-readable.*
+
 - *If a file needs to be removed/revised, just create a new torrent file and link to it.*
 
 
