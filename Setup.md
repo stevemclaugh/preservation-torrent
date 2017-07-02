@@ -38,30 +38,43 @@ docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:
 cd /home/transmission-daemon/Downloads
 ```
 
-
+Download our data bundle.
 
 ```
-mkdir DataRefuge_001_test/
-cd DataRefuge_001_test/
+wget -i http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.zip
 
-wget -i http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_wget_urls.txt
-
-cd ../
+unzip DataRefuge_001_test.zip
 ```
 
+
+<!--
+How to create the checksum and zip files we're using:
 
 ```
 find DataRefuge_001_test/* -type f -exec md5sum {} \;  > DataRefuge_001_test/_checksums.md5
+
+zip -r DataRefuge_001_test.zip DataRefuge_001_test/
 ```
+-->
+
+
+Use the included checksum list to make sure everything arrived intact. This may take a while.
+
+```
+md5sum -c DataRefuge_001_test/_checksums.md5
+```
+
+If every file passes the check, we're ready to create our torrent file. Enter the following command to launch a terminal session in our running Docker container.
 
 
 ```
 docker exec -ti transmission /bin/bash
 ```
 
+Now `cd` to the `Downloads` directory.
 
 ```
-cd var/lib/transmission-daemon/downloads
+cd var/lib/transmission-daemon/Downloads
 ```
 
 
