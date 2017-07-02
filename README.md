@@ -13,7 +13,7 @@
   - It is possible to download individual files from within torrents, but it shouldn't be encouraged. If too many people are seeding partial downloads, it can hurt the health of the swarm.
 
 
-- **Bundles should be issued in a numbered series, with periodic additions to include new datasets.**
+- **Bundles should be issued in a numbered series, with periodic additions to include new datasets:**
 
 ```
 📄 DataRefuge_001.torrent
@@ -24,7 +24,7 @@
 📄 ...
 ```
 
-- **Each torrent contains a single directory containing datasets and metadata.**
+- **Each torrent contains a single directory containing datasets and metadata:**
 
 ```
 📂 DataRefuge_001/
@@ -49,7 +49,7 @@
     📄 ...
 ```
 
-- **Larger datasets can be issued on their own, as a numbered bundle containing a single dataset.**
+- **Larger datasets can be issued on their own, as a numbered bundle containing a single item:**
 
 ```
 📂 DataRefuge_019/
@@ -59,37 +59,47 @@
     📄 README.txt
 ```
 
-- **Material should not be bundled thematically.**
+- **The fewer individual files in a torrent bundle, the better.**
+
+    - For the torrent release, each dataset should be distributed as one ZIP file and a (possibly optional) JSON metadata file.
+
+    - Each torrent should be capped at 400–500 individual files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
+
+
+- **Datasets don't need to be bundled thematically.**
 
     - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
 
-    - Instead, assign datasets to bundles chronologically.
+    - Instead, assign datasets to bundles roughly chronologically.
 
-- **The fewer individual files in a torrent bundle, the better.**
-
-    - If each torrent points to 1000 files, people's clients may crash.
-
-    - Each torrent should be capped at 400–500 individual files.
+- **Metadata for items included in the torrent collection, including checksums, should be available for download from a central location.**
 
 
-- *Include a checksum for each file in each torrent.*
+- **It isn not necessary to include extensive human-readable metadata in each torrent.**
 
-- *Filenames need not be human-readable.*
+    - Remember that filenames are visible to the public on torrent trackers and in the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
-- *If a file needs to be removed/revised, just create a new torrent file and link to it.*
+    - The master metadata set will be a fairly small document, so it may pose less of a preservation risk.
+
+
+- **If a file needs to be removed/revised in the future, just create a new torrent file and link to it.**
+
+    - The existing swarm will die out over time.
+
+    - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
 
 ## Benefits of torrent-based preservation
 
-People don't have to mirror the full set; they can dl one or two torrents and still contribute
+- People don't have to mirror the full set; they can dl one or two torrents and still contribute
 
-Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
+- Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
 
-And easier to manage and seed for the institution.
+- And easier to manage and seed for the institution.
 
-A limited set of sequentially numbered volumes stirs up a desire for completeness in the collector mentality.
+- A limited set of sequentially numbered volumes stirs up a desire for completeness in the collector mentality.
 
-Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
+- Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
 
 
 
