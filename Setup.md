@@ -74,7 +74,7 @@ docker exec -ti transmission /bin/bash
 Now `cd` to the `Downloads` directory.
 
 ```
-cd var/lib/transmission-daemon/Downloads
+cd /var/lib/transmission-daemon/Downloads
 ```
 
 
