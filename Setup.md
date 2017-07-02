@@ -97,7 +97,7 @@ docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:
 
 In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'.
 
-<img src="img/Transmission.png" width=600>
+<img src="img/Transmission.png" width=800>
 
 Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and post it on your website.
 
