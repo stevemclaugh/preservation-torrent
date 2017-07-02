@@ -26,13 +26,13 @@ Now download the Docker container we'll be using. This is my fork of [dperson's 
 docker pull stevemclaugh/transmission
 ```
 
-When it finishes downloading, run the container like so. This will create several new directories on your VPS under `/home/transmission-daemon`.
+When it finishes downloading, enter the following command to run the container in detached mode. This will create several new directories on your VPS under `/home/transmission-daemon`.
 
 ```
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
-`cd` into the `Downloads` directory.
+`cd` into Transmission's `Downloads` directory.
 
 ```
 cd /home/transmission-daemon/Downloads
