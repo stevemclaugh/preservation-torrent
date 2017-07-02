@@ -43,13 +43,13 @@
 
 - **Larger datasets can be issued on their own, as a numbered bundle containing a single dataset.**
 
-
-- DataRefuge\_099/
+```
+📂 DataRefuge_019/
     - _md5list.chk
     - 50GB-database-uuid.zip
     - 50GB-database-uuid.json
     - README.txt
-
+```
 
 - **Material should not be bundled thematically.**
 
@@ -84,10 +84,11 @@ Centralized to keep people orchestrated; decentralized enough to afford future m
 
 [*Setup guide for creating and seeding a torrent on a VPS*](Setup.md)
 
+<!--
 
 Tenen and Foxman paper
 
-kolhoz
 
+Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
 
- - Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
+-->
