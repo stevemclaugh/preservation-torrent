@@ -9,7 +9,7 @@ Create your virtual private server. I'm using an Ubuntu 16.04 server from Digita
 > <img src="img/DigitalOcean.png" width="800" />
 
 
-`ssh` into your new VPS.
+Start an `ssh` session on your new VPS.
 
 ```
 ssh root@your.ip.address.here
