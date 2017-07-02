@@ -2,7 +2,7 @@
 
 # Guidelines for torrent-based preservation
 
-- **Files should be bundled in groups of around 10–20 gigabytes.**
+- **Files should be bundled in groups of about 10–20 gigabytes.**
 
   - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
@@ -12,7 +12,7 @@
         - It's possible to download individual files from within torrents, but if too many people do so it can compromise the health of the swarm.
 
 
-- **Bundles should be issued in a numbered series, with new additions added periodically to include new datasets.**
+- **Bundles should be issued in a numbered series, with periodic additions to include new datasets.**
 
 ```
 📄 DataRefuge_001.torrent
@@ -21,7 +21,7 @@
 📄 ...
 ```
 
-- **Each torrent contains a single directory containing datasets and metadata**
+- **Each torrent contains a single directory containing datasets and metadata.**
 
 ```
 📂 DataRefuge_001/
