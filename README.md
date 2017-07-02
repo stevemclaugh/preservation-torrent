@@ -22,7 +22,9 @@
 
 - **Each torrent contains a single directory containing datasets and metadata**
 
-    📂 DataRefuge\_001/
+
+📂 DataRefuge\_001/
+
         - _md5list.chk
         - dataset-uuid123.zip
         - dataset-uuid123.json
@@ -30,9 +32,12 @@
         - dataset-uuidxyz.json
         - ...
         - README.txt
-    📂 DataRefuge_002/
-    📂 DataRefuge_003/
-    📂 ...
+
+📂 DataRefuge_002/
+    
+📂 DataRefuge_003/
+    
+📂 ...
 
 
 - **Larger datasets can be issued on their own, as a numbered bundle containing a single dataset.**
