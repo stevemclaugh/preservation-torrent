@@ -9,16 +9,17 @@
   - Bundling decreases the odds that individual (poorly seeded) torrents will slip through the cracks and disappear.
 
   - The point of bundling is that these torrents are aimed at preservation, not everyday use.
-
-    - It's possible to download individual files from within torrents, but if too many people do so it can compromise the health of the swarm.
+        - It's possible to download individual files from within torrents, but if too many people do so it can compromise the health of the swarm.
 
 
 - **Bundles should be issued in a numbered series, with new additions added periodically to include new datasets.**
 
-    - DataRefuge_001.torrent
-    - DataRefuge_002.torrent
-    - DataRefuge_003.torrent
-    - ...
+```
+📄 DataRefuge_001.torrent
+📄 DataRefuge_002.torrent
+📄 DataRefuge_003.torrent
+📄 ...
+```
 
 - **Each torrent contains a single directory containing datasets and metadata**
 
