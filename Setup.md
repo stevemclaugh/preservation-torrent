@@ -79,7 +79,10 @@ cd /var/lib/transmission-daemon/Downloads
 
 
 ```
-transmission-create -n DataRefuge_001_test/ --tracker udp://tracker.opentrackr.org:1337 --tracker http://tracker2.wasabii.com.tw:6969/announce -o ../info/torrents/DataRefuge_001_test.torrent
+transmission-create -n DataRefuge_001_test/ \
+--tracker udp://tracker.opentrackr.org:1337 \
+--tracker http://tracker2.wasabii.com.tw:6969/announce \
+-o ../info/torrents/DataRefuge_001_test.torrent
 ```
 
 
