@@ -101,7 +101,7 @@ In your browser, navigate to `your.ip.address.here:9091`. The default username a
 
 Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and share it with others.
 
-You can find the torrent file we just created [here](http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.torrent).
+You can find the torrent file we just created [here](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true).
 
 
 
