@@ -91,7 +91,7 @@
 
 ## Benefits of torrent-based preservation
 
-- People don't have to mirror the full set; they can dl one or two torrents and still contribute
+- People don't have to mirror the full set; they can download one or two torrents and still contribute
 
 - Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
 
@@ -104,7 +104,6 @@
 &nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
-
 <!--
 
 Tenen and Foxman paper
@@ -113,7 +112,6 @@ Tenen and Foxman paper
 Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
 
 -->
-
 &nbsp;
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
