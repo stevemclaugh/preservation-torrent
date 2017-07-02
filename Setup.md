@@ -88,7 +88,9 @@ transmission-create -n DataRefuge_001_test/ --tracker udp://tracker.opentrackr.o
 #chmod 775 DataRefuge_001_test/*
 #```
 
-Your data file is now in `transmission-daemon/Downloads/` and move the torrent file to `transmission-daemon/info/torrents`.
+
+
+
 
 
 control+p+q to leave Docker.
@@ -101,8 +103,9 @@ docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:
 ```
 
 
-165.227.15.173:9091
+`your.ip.address.here:9091`
 
+The default username and password are 'admin' and 'admin'.
 
 
 Right click > "Verify Local Data"
