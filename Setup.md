@@ -86,14 +86,6 @@ transmission-create -n DataRefuge_001_test/ \
 ```
 
 
-#```
-#chmod 775 DataRefuge_001_test/
-#chmod 775 DataRefuge_001_test/*
-#```
-
-
-
-
 
 
 control+p+q to leave Docker.
