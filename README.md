@@ -1,6 +1,6 @@
 ## Guidelines for torrent-based preservation
 
-[>> setup guide <<](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md)
+[>> Technical guide](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md)
 
 - **Files should be bundled in groups of 10–20 gigabytes or so.**
 
