@@ -25,7 +25,7 @@
 
 ```
 📂 DataRefuge_001/
-    📄 _md5list.chk
+    📄 _checksums.md5
     📄 dataset-uuid123.zip
     📄 dataset-uuid123.json
     📄 dataset-uuidxyz.zip
