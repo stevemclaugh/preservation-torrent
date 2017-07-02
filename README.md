@@ -2,14 +2,15 @@
 
 # Guidelines for torrent-based preservation
 
-- **Files should be bundled in groups of about 10–20 gigabytes.**
+- **Files should be grouped in bundles of around 10–20 gigabytes.**
 
-  - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+  - Few people will bother to seed hundreds of separate 25MB–100MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-  - Bundling decreases the odds that individual (poorly seeded) torrents will slip through the cracks and disappear.
+  - Bundling decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
 
   - The point of bundling is that these torrents are aimed at preservation, not everyday use.
-        - It's possible to download individual files from within torrents, but if too many people do so it can compromise the health of the swarm.
+
+  - It is possible to download individual files from within torrents, but it shouldn't be encouraged. If too many people are seeding partial downloads, it can hurt the health of the swarm.
 
 
 - **Bundles should be issued in a numbered series, with periodic additions to include new datasets.**
@@ -18,6 +19,8 @@
 📄 DataRefuge_001.torrent
 📄 DataRefuge_002.torrent
 📄 DataRefuge_003.torrent
+📄 DataRefuge_004.torrent
+📄 DataRefuge_005.torrent
 📄 ...
 ```
 
@@ -37,6 +40,12 @@
     📄 ...
 
 📂 DataRefuge_003/
+    📄 ...
+
+📂 DataRefuge_004/
+    📄 ...
+
+📂 DataRefuge_005/
     📄 ...
 ```
 
@@ -76,9 +85,12 @@ People don't have to mirror the full set; they can dl one or two torrents and st
 
 Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
 
+And easier to manage and seed for the institution.
+
 A limited set of sequentially numbered volumes stirs up a desire for completeness in the collector mentality.
 
 Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
+
 
 
 [*Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
