@@ -25,21 +25,19 @@
 
 ```
 📂 DataRefuge_001/
-    - _md5list.chk
-    - dataset-uuid123.zip
-    - dataset-uuid123.json
-    - dataset-uuidxyz.zip
-    - dataset-uuidxyz.json
-    - ...
-    - README.txt
+    📄 _md5list.chk
+    📄 dataset-uuid123.zip
+    📄 dataset-uuid123.json
+    📄 dataset-uuidxyz.zip
+    📄 dataset-uuidxyz.json
+    📄 ...
+    📄 README.txt
 
 📂 DataRefuge_002/
-    -  ...
+    📄 ...
 
 📂 DataRefuge_003/
-    -  ...
-
-📂 ...
+    📄 ...
 ```
 
 - **Larger datasets can be issued on their own, as a numbered bundle containing a single dataset.**
