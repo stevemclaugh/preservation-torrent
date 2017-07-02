@@ -1,7 +1,7 @@
 ### [Guidelines](README.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
 
 
-# Creating and seeding a torrent on a VPS
+# Setup guide: Creating and seeding a torrent on a VPS
 
 
 Create your virtual private server. I'm using an Ubuntu 16.04 server from Digital Ocean with with Docker 17.05.0-ce pre-installed.
