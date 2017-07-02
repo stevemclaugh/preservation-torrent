@@ -44,7 +44,7 @@
 
 ```
 📂 DataRefuge_019/
-    📄 _md5list.chk
+    📄 _checksums.md5
     📄 50GB-database-uuid.zip
     📄 50GB-database-uuid.json
     📄 README.txt
@@ -81,7 +81,7 @@ A limited set of sequentially numbered volumes stirs up a desire for completenes
 Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
 
 
-[*Setup guide for creating and seeding a torrent on a VPS*](Setup.md)
+[*Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
 <!--
 
