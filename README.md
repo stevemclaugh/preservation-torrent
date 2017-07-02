@@ -1,6 +1,6 @@
 ## Guidelines for torrent-based preservation
 
-[>> Technical guide](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
+#### [Technical guide](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
 
 - **Files should be bundled in groups of 10–20 gigabytes or so.**
 
