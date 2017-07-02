@@ -29,15 +29,21 @@
 ```
 📂 DataRefuge_001/
     📄 _checksums.md5
-    📄 dataset-uuid123.zip
-    📄 dataset-uuid123.json
-    📄 dataset-uuidxyz.zip
-    📄 dataset-uuidxyz.json
+    📄 dataset-uuid-123.zip
+    📄 dataset-uuid-123.json
+    📄 dataset-uuid-xyz.zip
+    📄 dataset-uuid-xyz.json
     📄 ...
     📄 README.txt
 
-📂 DataRefuge_002/
+📂 DataRefuge_001/
+    📄 _checksums.md5
+    📄 dataset-uuid-456.zip
+    📄 dataset-uuid-456.json
+    📄 dataset-uuid-abc.zip
+    📄 dataset-uuid-abc.json
     📄 ...
+    📄 README.txt
 
 📂 DataRefuge_003/
     📄 ...
@@ -61,41 +67,39 @@
 
 - **The fewer individual files in a torrent bundle, the better.**
 
-    - For the torrent release, each dataset should be distributed as one ZIP file and a (possibly optional) JSON metadata file.
+    - In these torrents, each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
 
     - Each torrent should be capped at 400–500 individual files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
 
 
-- **Datasets don't need to be bundled thematically.**
+- **Datasets need not be bundled thematically.**
 
     - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
 
     - Instead, assign datasets to bundles roughly chronologically.
 
-- **Metadata for items included in the torrent collection, including checksums, should be available for download from a central location.**
+- **Metadata for items included in the torrent collection, including checksums and torrent magnet links, should be available for download from a central location.**
 
 
-- **It is not necessary to include extensive human-readable metadata in each torrent.**
+- **It isn't necessary to include extensive human-readable metadata in each torrent.**
 
-    - Remember that filenames are visible to the public on torrent trackers and in the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
+    - Remember that filenames are visible to the public via torrent trackers and in the distributed hash table. Using UUIDs instead of human-readable filenames is a form of light obfuscation.
 
-    - The master metadata set will be a fairly small document, so it may pose less of a preservation risk.
+    - The master metadata set will be a fairly small document, so it may pose less of a preservation risk than the datasets.
 
 
-- **If a file needs to be removed/revised in the future, just create a new torrent file and link to it.**
-
-    - The existing swarm will die out over time.
+- **If a dataset needs to be removed/revised in the future, simply create a new torrent file and link to it from the central site.**
 
     - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
+
+    - The swarm of seeders for the original torrent will probably die out over time.
 
 
 ## Benefits of torrent-based preservation
 
-- People don't have to mirror the full set; they can download one or two torrents and still contribute
+- People can participate in the preservation effort without the effort and resources involved in running a full mirror. An individual can participate by seeding just one or two torrents.
 
-- Dozens of torrents instead of hundreds or thousands make the collection easy to grab and seed en masse.
-
-- And easier to manage and seed for the institution.
+- Distributing the collection in dozens of torrents instead of hundreds makes it easy to collect and seed en masse.
 
 - A limited set of sequentially numbered volumes stirs up a desire for completeness in the collector mentality.
 
