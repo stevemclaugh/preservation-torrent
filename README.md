@@ -44,10 +44,10 @@
 
 ```
 📂 DataRefuge_019/
-    - _md5list.chk
-    - 50GB-database-uuid.zip
-    - 50GB-database-uuid.json
-    - README.txt
+    📄 _md5list.chk
+    📄 50GB-database-uuid.zip
+    📄 50GB-database-uuid.json
+    📄 README.txt
 ```
 
 - **Material should not be bundled thematically.**
