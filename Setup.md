@@ -80,7 +80,7 @@ Now `cd` to the `Downloads` directory.
 cd /var/lib/transmission-daemon/Downloads
 ```
 
-The following command will create a torrent file for the directory `DataRefuge_001_test/`, which will be located at `/var/lib/transmission-daemon/info/torrents/DataRefuge_001_test.torrent`.
+The following command will create a torrent file for the directory `DataRefuge_001_test/`, which will be located at `/var/lib/transmission-daemon/info/torrents/DataRefuge_001_test.torrent` within the Docker container and `/home/transmission-daemon/info/torrents/DataRefuge_001_test.torrent` in Ubuntu.
 
 ```
 transmission-create -n DataRefuge_001_test/ \
@@ -103,7 +103,7 @@ In your browser, navigate to `your.ip.address.here:9091`. The default username a
 
 > <img src="img/Transmission.png" width=800>
 
-Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and share it with others.
+Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created at `/home/transmission-daemon/info/torrents/DataRefuge_001_test.torrent`. Download that file using an FTP client (or however is most convenient) and share it with others.
 
 You can find the torrent file we just created [here](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true).
 
