@@ -38,10 +38,10 @@ docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:
 cd /home/transmission-daemon/Downloads
 ```
 
-Download our data bundle.
+Download and unzip our data bundle.
 
 ```
-wget -i http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.zip
+wget http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.zip
 
 unzip DataRefuge_001_test.zip
 ```
