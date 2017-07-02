@@ -23,7 +23,7 @@ ufw allow 51413
 apt-get -y install unzip
 ```
 
-Now download the Docker container we'll be using: my fork of [dperson's container](https://github.com/dperson/transmission) for the open-source bittorrent client [Transmission](https://transmissionbt.com). I've included Transmission's command-line tool for creating new torrents.  
+Next, download the Docker container we'll be using: my fork of [dperson's container](https://github.com/dperson/transmission) for the open-source bittorrent client [Transmission](https://transmissionbt.com). I fixed a few bugs and added Transmission's command-line tool for creating new torrents.
 
 ```
 docker pull stevemclaugh/transmission
