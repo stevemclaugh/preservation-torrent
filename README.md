@@ -75,7 +75,7 @@
 - **Metadata for items included in the torrent collection, including checksums, should be available for download from a central location.**
 
 
-- **It isn not necessary to include extensive human-readable metadata in each torrent.**
+- **It is not necessary to include extensive human-readable metadata in each torrent.**
 
     - Remember that filenames are visible to the public on torrent trackers and in the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
@@ -102,8 +102,10 @@
 - Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
 
 
+&nbsp;
 
-[*Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
+
+### [*Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
 <!--
 
