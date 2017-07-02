@@ -1,16 +1,18 @@
 ## Creating and seeding a torrent on a VPS
 
 
-I'm using an Ubuntu 16.04 server from Digital Ocean with with Docker 17.05.0-ce pre-installed.
+Create your virtual private server. I'm using an Ubuntu 16.04 server from Digital Ocean with with Docker 17.05.0-ce pre-installed.
 
 > <img src="img/DigitalOcean.png" width="800" />
 
 
+`ssh` into your new server.
+
 ```
-ssh root@138.68.247.106
+ssh root@your.ip.address.here
 ```
 
-
+Open ports 9091 and 51413 in your firewall and make sure `unzip` is installed.
 
 ```
 ufw allow 9091
@@ -18,29 +20,23 @@ ufw allow 51413
 apt-get -y install unzip
 ```
 
+Now download the Docker container we'll be using. This is my fork of [dperson's container](https://github.com/dperson/transmission) for the open-source bittorrent client [Transmission](https://transmissionbt.com), which includes Transmission's command-line tools for creating new torrents.  
 
 ```
 docker pull stevemclaugh/transmission
 ```
 
-First, launch an interactive session and create your torrent file from the command line.
+When it finishes downloading, run the container like so. This will create several new directories on your VPS under `/home/transmission-daemon`.
 
 ```
-docker rm -f transmission
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
-
-
-
+`cd` into the `Downloads` directory.
 
 ```
-cd /home/transmission-daemon/downloads
+cd /home/transmission-daemon/Downloads
 ```
-
-
-
-
 
 
 
