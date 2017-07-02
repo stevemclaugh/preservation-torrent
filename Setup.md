@@ -15,7 +15,7 @@ Start an `ssh` session on your new VPS.
 ssh root@your.ip.address.here
 ```
 
-Open ports 9091 and 51413 in your firewall and make sure `unzip` is installed.
+Open ports `9091` and `51413` in your firewall and make sure `unzip` is installed.
 
 ```
 ufw allow 9091
