@@ -6,7 +6,7 @@ Create your virtual private server. I'm using an Ubuntu 16.04 server from Digita
 > <img src="img/DigitalOcean.png" width="800" />
 
 
-`ssh` into your new server.
+`ssh` into your new VPS.
 
 ```
 ssh root@your.ip.address.here
@@ -20,7 +20,7 @@ ufw allow 51413
 apt-get -y install unzip
 ```
 
-Now download the Docker container we'll be using. This is my fork of [dperson's container](https://github.com/dperson/transmission) for the open-source bittorrent client [Transmission](https://transmissionbt.com), which includes a command-line tool for creating new torrents.  
+Now download the Docker container we'll be using: my fork of [dperson's container](https://github.com/dperson/transmission) for the open-source bittorrent client [Transmission](https://transmissionbt.com). I've included Transmission's command-line tool for creating new torrents.  
 
 ```
 docker pull stevemclaugh/transmission
@@ -58,7 +58,7 @@ zip -r DataRefuge_001_test.zip DataRefuge_001_test/
 -->
 
 
-Use the included checksum list to make sure everything arrived intact. This may take a few minutes.
+Use the included checksum list to verify that everything has arrived intact. This may take a few minutes.
 
 ```
 md5sum -c DataRefuge_001_test/_checksums.md5
@@ -92,6 +92,7 @@ Now enter the following two commands to kill the running Docker container and re
 
 ```
 docker rm -f transmission
+
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
