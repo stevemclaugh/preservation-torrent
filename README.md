@@ -2,7 +2,7 @@
 
 [>> setup guide <<](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md)
 
-- **Small files should be bundled in groups of 10–20 gigabytes.**
+- **Files should be bundled in groups of 10–20 gigabytes or so.**
 
   - Few people will bother to seed hundreds of separate 25MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
