@@ -99,6 +99,6 @@ In your browser, navigate to `your.ip.address.here:9091`. The default username a
 
 <img src="img/Transmission.png" width=800>
 
-Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and post it on your website.
+Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and share it with others.
 
 You can find the torrent file we just created [here](http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.torrent).
