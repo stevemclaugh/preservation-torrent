@@ -80,7 +80,7 @@ Now `cd` to the `Downloads` directory.
 cd /var/lib/transmission-daemon/Downloads
 ```
 
-The following command will create a torrent file for the directory `DataRefuge_001_test/`, which will be located at `/var/lib/transmission-daemon/info/torrents/DataRefuge_001_test.torrent` within the Docker container and `/home/transmission-daemon/info/torrents/DataRefuge_001_test.torrent` in Ubuntu.
+The following command will create a torrent file for `DataRefuge_001_test/`, which will be saved to `transmission-daemon/info/torrents/DataRefuge_001_test.torrent`.
 
 ```
 transmission-create -n DataRefuge_001_test/ \
