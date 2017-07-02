@@ -77,6 +77,7 @@ Now `cd` to the `Downloads` directory.
 cd /var/lib/transmission-daemon/Downloads
 ```
 
+The following command will create a torrent file for the directory `DataRefuge_001_test/`, which will be located at `/var/lib/transmission-daemon/info/torrents/DataRefuge_001_test.torrent`.
 
 ```
 transmission-create -n DataRefuge_001_test/ \
@@ -85,22 +86,19 @@ transmission-create -n DataRefuge_001_test/ \
 -o ../info/torrents/DataRefuge_001_test.torrent
 ```
 
+Press `ctrl+p`, then `ctrl+q` to close your terminal session in the Docker container.
 
-
-
-control+p+q to leave Docker.
-
-Relaunch the transmission container to begin seeding:
+Now enter the following two commands kill the running Transmission Docker container and restart it in detached mode.
 
 ```
 docker rm -f transmission
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
+In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'.
 
-`your.ip.address.here:9091`
+<img src="img/Transmission.png" width=600>
 
-The default username and password are 'admin' and 'admin'.
+Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created. Download that file using an FTP client (or however is most convenient) and post it on your website.
 
-
-Right click > "Verify Local Data"
+You can find the torrent file we just created [here](http://www.stephenmclaughlin.net/DataRefuge/DataRefuge_001_test.torrent).
