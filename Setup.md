@@ -26,7 +26,7 @@ Now download the Docker container we'll be using. This is my fork of [dperson's 
 docker pull stevemclaugh/transmission
 ```
 
-When it finishes downloading, enter the following command to run the container in detached mode. This will create several new directories on your VPS under `/home/transmission-daemon`.
+When it finishes downloading, enter the following command to run the container in detached mode. This will create several new directories in your file system under `/home/transmission-daemon/`.
 
 ```
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
@@ -48,7 +48,7 @@ unzip DataRefuge_001_test.zip
 
 
 <!--
-How to create the checksum and zip files we're using:
+To create the checksum and zip files we're using:
 
 ```
 find DataRefuge_001_test/* -type f -exec md5sum {} \;  > DataRefuge_001_test/_checksums.md5
@@ -88,7 +88,7 @@ transmission-create -n DataRefuge_001_test/ \
 
 To close your terminal session in the Docker container, press `ctrl+p`, then `ctrl+q`.
 
-Now enter the following two commands kill the running Docker container and restart it in detached mode.
+Now enter the following two commands to kill the running Docker container and restart it in detached mode.
 
 ```
 docker rm -f transmission
