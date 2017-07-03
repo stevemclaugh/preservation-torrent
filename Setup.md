@@ -89,9 +89,9 @@ transmission-create -n DataRefuge_001_test/ \
 -o ../info/torrents/DataRefuge_001_test.torrent
 ```
 
-To close your terminal session in the Docker container, press `ctrl+p`, then `ctrl+q`.
+Now we'll return to Ubuntu. To close your session in the Docker container, press `ctrl+p`, then `ctrl+q`.
 
-Now enter the following two commands to kill the running Docker container and restart it in detached mode.
+Enter the following two commands to kill the running Docker container and restart it in detached mode.
 
 ```
 docker rm -f transmission
