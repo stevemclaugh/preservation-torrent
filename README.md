@@ -7,9 +7,10 @@
 
 - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-- Issuing bundled datasets (rather than one torrent per item) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
+- Issuing bundled datasets (rather than one per torrent) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
+- The point of this model is that these torrents are aimed at preservation, not everyday use.
+    - If someone has limited disk space, it is still possible to download individual files from torrents.
 
 
 ### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted source.
