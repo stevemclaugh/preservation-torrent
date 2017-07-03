@@ -81,7 +81,7 @@
 - Instead, assign datasets to torrent bundles in roughly chronological order.
 
 
-### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted source.
+### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted organization.
 
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
@@ -91,7 +91,7 @@
 - The master metadata collection will be a fairly small document, so it may pose less of a preservation risk than the datasets.
 
 
-### If a dataset needs to be retracted/updated in the future, the trusted source can create a replacement torrent and link to the new torrent file.
+### If a dataset must be retracted/updated, the trusted organization can create and post a replacement torrent.
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
@@ -102,8 +102,8 @@
 
 ## Benefits of torrent-based preservation
 
-- With a trusted source issuing torrent files and metadata, the system is centralized enough to keep people on the same page.
-    - If that source ceases to operate, collaboration among collectors may permit the data to live on in more-or-less coherent form.
+- With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page.
+    - If that organization ceases to operate, collaboration among collectors may permit the data to live on in more-or-less coherent form.
 
 - Individuals can participate in the preservation effort without the expertise or disk space required to run a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
