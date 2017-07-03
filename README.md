@@ -108,16 +108,13 @@
 
 - With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that organization ceases to operate, collaboration among collectors may allow the data to continue circulating in a coherent form.
 
-
 &nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
-
 &nbsp;
 
 ## *Further reading*
-
 
 Cabanac, Guillaume. “Bibliogifts in LibGen? Study of a Text-Sharing Platform Driven by Biblioleaks and Crowdsourcing.” *Journal of the Association for Information Science and Technology*, March 27, 2015. doi:10.1002/asi.23445. [ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf](ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf).
 
