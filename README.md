@@ -9,7 +9,7 @@
 
 - Issuing bundled datasets (rather than one torrent per item) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The point of the bundled model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
+- The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
 
 
 ### Metadata for all datasets, along with BitTorrent files and checksums, should be available from a trusted source.
