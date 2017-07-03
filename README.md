@@ -75,7 +75,7 @@
 
 - Each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
 
-- Each torrent should contain no more than 400–500 individual files. If a single torrent points to too many files, participants' clients may slow down or crash.
+- Each torrent should contain no more than 400–500 individual files. If a single torrent points to too many files, participants' clients may lag or crash.
 
 
 ### Datasets need not be bundled thematically.
