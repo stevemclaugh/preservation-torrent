@@ -97,7 +97,7 @@ docker rm -f transmission
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
-In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'. (You can change them by editing `transmission-daemon/info/settings.json`.)
+In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'. (You can change them by editing `/home/transmission-daemon/info/settings.json`.)
 
 > <img src="img/Transmission.png" width=800>
 
