@@ -9,7 +9,7 @@
 
 - Issuing bundles (rather than one torrent per dataset) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from torrents.
+- The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions to reflect the latest datasets.
