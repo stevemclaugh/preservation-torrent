@@ -12,7 +12,7 @@
 - The main idea is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within a torrent.
 
 
-### Torrents should be issued in a numbered series, with periodic additions to reflect the latest datasets.
+### Torrents should be issued in a numbered series, with periodic additions to include the latest datasets.
 
 ```
 📄 DataRefuge_001.torrent
