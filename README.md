@@ -9,7 +9,7 @@
 
 - Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
 
-- In response to imagined critics: The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. It's still possible to download individual files from within torrents.
+- The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. It is still possible to download individual files from within torrents.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions for new datasets.
