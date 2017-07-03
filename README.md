@@ -86,16 +86,16 @@
 
 - Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
-- The master metadata collection will be a fairly small document, so it may pose less of a preservation risk than the datasets.
+- The master metadata collection will be a fairly small document, so it may be less of a preservation risk than the datasets.
 
 
-### If a dataset must be retracted/updated, the trusted organization can create and post a replacement torrent.
+### If a dataset must be retracted/updated, a trusted organization can post a replacement torrent.
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-- The group of seeders for the original torrent will die out over time.
+- The swarm of seeders for the original torrent will die out over time.
 
-- Reissuing a torrent, of course, should be reserved for exceptional cases.
+- Reissuing a torrent should be reserved for exceptional cases.
 
 
 ## Benefits of torrent-based preservation
