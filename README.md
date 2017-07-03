@@ -108,19 +108,21 @@
 
 &nbsp;
 
+
+#### Further reading
+
+Martin, John. “Piracy, Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index.” ASIS&T Annual Meeting, 2016. [https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf).
+
+
+Tenen, Dennis, and Maxwell Foxman. “Book Piracy as Peer Preservation.” *Computational Culture*, November 9, 2014. [http://computationalculture.net/article/book-piracy-as-peer-preservation](http://computationalculture.net/article/book-piracy-as-peer-preservation).
+
+
+
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
-<!--
 
 
-Martin, John. 2016. Piracy, "[Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf)."
 
-Tenen and Foxman paper
-
-
-Precedents include LibGen/Sci-Hub, as well as the 78-DVD "kolhoz library" collection.
-
--->
 
 &nbsp;
 
