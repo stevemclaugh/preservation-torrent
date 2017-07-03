@@ -4,7 +4,7 @@
 
 - **Each torrent should be a bundle of datasets totaling about 10–20 gigabytes.**
 
-  - Few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+  - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
   - Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
 
@@ -90,18 +90,18 @@
 
     - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-    - The swarm of seeders for the original torrent will probably die out over time.
+    - The group of seeders for the original torrent will die out over time.
 
 
 ## Benefits of torrent-based preservation
 
-- People can participate in the preservation effort without the effort and resources involved in running a full mirror. An individual can participate by seeding just one or two torrents.
+- People can participate in the preservation effort without the effort and disk space required to run a full mirror. An individual can contribute by seeding just one or two torrents.
 
-- Distributing the collection in dozens of torrents instead of hundreds makes it easy to collect and seed en masse.
+- Distributing the collection in dozens of torrents instead of hundreds will make it easy to collect and seed en masse.
 
-- A limited set of sequentially numbered volumes stirs up a desire for completeness in the collector mentality.
+- Issuing a limited set of sequentially numbered volumes stirs up a yen for completeness in the collector.
 
-- Centralized to keep people orchestrated; decentralized enough to afford future mirrors.
+- With a central body issuing torrent files and metadata, the system is centralized enough to keep people orchestrated, but decentralized enough to allow the full collection to potentially outlive the originsting body itself.
 
 &nbsp;
 
