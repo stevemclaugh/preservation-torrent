@@ -12,9 +12,6 @@
 - The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from torrents.
 
 
-### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted source.
-
-
 ### Torrents should be issued in a numbered series, with periodic additions to reflect the latest datasets.
 
 ```
@@ -82,6 +79,9 @@
 - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
 
 - Instead, assign datasets to torrent bundles in roughly chronological order.
+
+
+### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted source.
 
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
