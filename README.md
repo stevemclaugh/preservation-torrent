@@ -88,7 +88,7 @@
 
 - Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
-- The master metadata collection will be a fairly small document, so it may pose less of a preservation risk than the actual datasets.
+- The master metadata collection will be a fairly small document, so it may pose less of a preservation risk than the datasets.
 
 
 ### If a dataset needs to be retracted/updated in the future, the trusted source can create a replacement torrent and link to the new torrent file.
