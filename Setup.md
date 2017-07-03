@@ -61,7 +61,7 @@ zip -r DataRefuge_001_test.zip DataRefuge_001_test/
 -->
 
 
-Use the included checksum list to verify that everything has arrived intact. This may take a few minutes.
+Use the included checksum file to verify that everything has arrived intact. This may take a few minutes.
 
 ```
 md5sum -c DataRefuge_001_test/_checksums.md5
