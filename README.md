@@ -1,6 +1,6 @@
 ### [Setup guide](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
 
-# Guidelines for torrent-based preservation
+# Guidelines for torrent-based data preservation
 
 
 ### Each torrent should contain a bundle of datasets, each around 10–20 gigabytes.
