@@ -82,7 +82,7 @@
 ### Metadata for all datasets, along with checksums, torrent files, and magnet links, should be available from a trusted organization.
 
 
-### It isn't necessary to include extensive human-readable metadata in each torrent.
+### It isn't necessary to include extensive metadata in each torrent.
 
 - Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
