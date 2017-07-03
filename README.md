@@ -74,12 +74,12 @@
 - Each torrent should contain no more than 400–500 individual files. If a single torrent points to too many files, participants' clients may lag or crash.
 
 
+### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted organization.
+
+
 ### Datasets need not be bundled thematically.
 
 - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to torrent bundles in roughly chronological order.
-
-
-### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted organization.
 
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
