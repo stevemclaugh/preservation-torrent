@@ -100,7 +100,7 @@
 
 ## Benefits of torrent-based preservation
 
-- With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that organization ceases to operate, collaboration among collectors may allow the data to continue circulating.
+- With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that organization ceases to operate, collaboration among collectors may allow the data to continue circulating in a coherent form.
 
 - Individuals can participate in the preservation effort without the expertise or disk space required to operate a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
