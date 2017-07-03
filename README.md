@@ -93,7 +93,7 @@
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-- The swarm of seeders for the original torrent will die out over time.
+- The swarm of seeders for a discarded torrent will die out over time.
 
 - Reissuing a torrent should be reserved for exceptional cases.
 
