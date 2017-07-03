@@ -5,14 +5,14 @@
 
 ### Each torrent should contain a bundle of datasets totaling around 10–20 gigabytes.
 
-  - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-  - Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
+- Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
 
-  - In response to an imagined critic: The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. It's still possible to download individual files from within torrents.
+- In response to imagined critics: The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. It's still possible to download individual files from within torrents.
 
 
-### Torrents should be issued in a numbered series, with periodic additions to include new datasets.
+### Torrents should be issued in a numbered series, with periodic additions for new datasets.
 
 ```
 📄 DataRefuge_001.torrent
@@ -23,7 +23,7 @@
 📄 ...
 ```
 
-### Each torrent contains a single directory containing multiple datasets and their metadata.
+### Each torrent contains a single directory with several (perhaps several dozen) datasets and their metadata.
 
 ```
 📂 DataRefuge_001/
@@ -54,7 +54,7 @@
     📄 ...
 ```
 
-### Larger datasets can be issued as a numbered "bundle" containing a single item.
+### Larger datasets can be issued as a numbered 'bundle' containing a single item.
 
 ```
 📂 DataRefuge_019/
@@ -66,33 +66,33 @@
 
 ### The fewer individual files in a torrent bundle, the better.
 
-    - In these torrents, each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
+- In these torrents, each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
 
-    - Each torrent should be capped at 400–500 files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
+- Each torrent should be capped at 400–500 files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
 
 
 ### Datasets need not be bundled thematically.
 
-    - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
+- Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
 
-    - Instead, assign datasets to bundles in roughly chronological order.
+- Instead, assign datasets to bundles in roughly chronological order.
 
 ### Metadata for items included in the torrent collection, along with checksums and torrent magnet links, should be available for download from a trusted source.
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
 
-    - Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a form of light obfuscation.
+- Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a form of light obfuscation.
 
-    - The master metadata collection will be a fairly small document, so it may pose less of a preservation challenge than the datasets.
+- The master metadata collection will be a fairly small document, so it may pose less of a preservation challenge than the datasets.
 
 
 ### If a dataset needs to be removed/revised in the future, it is possible to create a replacement torrent and link to it from the central site.
 
-    - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
+- Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-    - The group of seeders for the original torrent will die out over time.
+- The group of seeders for the original torrent will die out over time.
 
-    - Relaunching a torrent should be reserved for exceptional cases only.
+- Relaunching a torrent should be reserved for exceptional cases only.
 
 ### Benefits of torrent-based preservation using bundles
 
