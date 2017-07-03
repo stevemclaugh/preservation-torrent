@@ -7,7 +7,7 @@
 
 - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-- Issuing bundles (rather than one torrent per dataset) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
+- Issuing bundles (rather than creating one torrent per dataset) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
 - The purpose of bundling is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within a torrent.
 
