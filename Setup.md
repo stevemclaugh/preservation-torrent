@@ -1,4 +1,4 @@
-### [Torrent preservation guidelines](README.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
+### [Guidelines](README.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
 
 
 # Setup guide: Creating and seeding a torrent on a VPS
