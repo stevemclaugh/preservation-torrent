@@ -53,7 +53,7 @@
     📄 ...
 ```
 
-- **Larger datasets can be issued on their own, as a numbered bundle containing a single item:**
+- **Larger datasets can be issued on their own, as a numbered bundle containing a single item.**
 
 ```
 📂 DataRefuge_019/
@@ -83,7 +83,7 @@
 
     - Remember that filenames are visible to the public via torrent trackers and in the distributed hash table. Using UUIDs instead of human-readable filenames is a form of light obfuscation.
 
-    - The master metadata set will be a fairly small document, so it may pose less of a preservation risk than the datasets.
+    - The master metadata set will be a fairly small document, so it may pose less of a preservation challenge than the datasets.
 
 
 - **If a dataset needs to be removed/revised in the future, simply create a new torrent file and link to it from the central site.**
@@ -92,8 +92,9 @@
 
     - The group of seeders for the original torrent will die out over time.
 
+    - Relaunching a torrent should be reserved for special cases only.
 
-## Benefits of torrent-based preservation
+## Benefits of torrent-based preservation using bundles
 
 - People can participate in the preservation effort without the effort and disk space required to run a full mirror. An individual can contribute by seeding just one or two torrents.
 
