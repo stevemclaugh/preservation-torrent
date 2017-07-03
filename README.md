@@ -1,4 +1,4 @@
-### [Setup guide](https://github.com/stevemclaugh/preservation-torrent/blob/master/Setup.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
+### [Setup guide](Setup.md) | [Sample torrent file](https://github.com/stevemclaugh/preservation-torrent/blob/master/DataRefuge_001_test.torrent?raw=true)
 
 # Guidelines for torrent-based preservation
 
@@ -102,7 +102,7 @@
 
 ## Benefits of torrent-based preservation
 
-- With a trusted source issuing torrent files and metadata, the system is centralized enough to keep people on the same page. 
+- With a trusted source issuing torrent files and metadata, the system is centralized enough to keep people on the same page.
     - If that source ceases to operate, collaboration among collectors may permit the data to live on in more-or-less coherent form.
 
 - Individuals can participate in the preservation effort without the expertise or disk space required to run a full mirror. Downloading and seeding just one or two torrents is a real contribution.
