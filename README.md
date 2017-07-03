@@ -5,11 +5,11 @@
 
 ### Each torrent should contain a bundle of datasets totaling around 10–20 gigabytes.
 
-- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Some have plenty of storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-- Issuing datasets in bundles decreases the odds that less in-demand datasets will slip through the cracks and no longer be seeded.
+- Issuing datasets in bundles decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. If users have limited disk space, it is still possible to download individual files from within torrents.
+- The point of the bundled model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is possible to download selected files from within torrents.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions for new datasets.
@@ -56,7 +56,7 @@
 ```
 
 
-### Larger datasets can be issued as a numbered torrent 'bundle' containing a single item.
+### A very large dataset would be issued on its own as a numbered torrent in the series.
 
 ```
 📂 DataRefuge_019/
@@ -66,12 +66,14 @@
     📄 README.txt
 ```
 
-
 ### The fewer files in a torrent, the better.
 
-- Each dataset should be distributed as one ZIP file (or similar archive format) and a corresponding JSON metadata file.
+- Each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
 
-- Each torrent should be capped at 400–500 individual files. If a single torrent points to >1000 files, BitTorrent clients may slow down or crash.
+- Each torrent should be capped at 400–500 individual files. If a single torrent points to >1000 files, participants' clients may slow down or crash.
+
+
+### Metadata for all datasets, along with checksums and BitTorrent magnet links, should be available for download from a trusted source.
 
 
 ### Datasets need not be bundled thematically.
@@ -81,33 +83,31 @@
 - Instead, assign datasets to torrent bundles in roughly chronological order.
 
 
-### Metadata for all items included in the torrent collection, along with checksums and torrent magnet links, should be available for download from a trusted source.
-
-
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
 
-- Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a liight form of obfuscation.
+- Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
-- The master metadata collection will be a fairly small document, so it may pose less of a preservation challenge than the datasets.
+- The master metadata collection will be a fairly small document, so it may pose less of a preservation risk than the datasets.
 
 
-### If a dataset needs to be removed/revised in the future, one can create a replacement torrent and link to it from the central source.
+### If a dataset needs to be removed/updated in the future, it is possible to create a replacement torrent and link to the new torrent file from the trusted source.
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-- The group of seeders for the original torrent will likely die out over time.
+- The group of seeders for the original torrent will die out over time.
 
-- Relaunching a torrent should be reserved for exceptional cases only.
+- Relaunching a torrent, of course, should be reserved for exceptional cases.
 
-### Benefits of torrent-based preservation using bundles
 
-- People can participate in the preservation effort without the effort and disk space required to run a full mirror. An individual can contribute by seeding just one or two torrents.
+## Benefits of torrent-based preservation
 
-- Distributing the collection in dozens of torrents instead of hundreds will make it easy to collect and seed en masse.
+- With a trusted source issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that source ceases its operations, the structure is decentralized enough to allow the collection to live on in a more-or-less coherent form.
 
-- Issuing a limited set of sequentially numbered volumes may stir up a desire for completeness among collectors.
+- Individuals can participate in the preservation effort without the expertise and disk space required to run a full mirror. One can make a contribution by downloading and seeding just one or two torrents.
 
-- With a trusted body issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that body ceases its operations, the structure is decentralized enough to allow the collection to live on in a more-or-less coherent form.
+- Distributing the collection using dozens of torrents instead of hundreds will make it simple to collect and seed en masse.
+
+- Issuing a limited set of sequentially numbered volumes will ideally stir up a desire for completeness among collectors.
 
 &nbsp;
 
