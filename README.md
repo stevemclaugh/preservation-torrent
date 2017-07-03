@@ -60,7 +60,7 @@
 ```
 
 
-### A very large dataset would be issued on its own as a numbered torrent in the series.
+### A large dataset would be issued on its own as a numbered torrent in the series.
 
 ```
 📂 DataRefuge_019/
