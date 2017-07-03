@@ -110,7 +110,7 @@
 
 &nbsp;
 
-#### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
+### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
 &nbsp;
 
