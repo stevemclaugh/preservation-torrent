@@ -24,7 +24,7 @@
 ```
 
 
-### Each torrent comprises a single directory containing several (perhaps several dozen) datasets and their metadata.
+### Each torrent points to a single directory containing several (perhaps several dozen) datasets and their metadata.
 
 ```
 📂 DataRefuge_001/
@@ -56,7 +56,7 @@
 ```
 
 
-### Larger datasets can be issued as a numbered torrent containing a single item.
+### Larger datasets can be issued as a numbered torrent 'bundle' containing a single item.
 
 ```
 📂 DataRefuge_019/
@@ -67,11 +67,11 @@
 ```
 
 
-### The fewer individual files in a torrent bundle, the better.
+### The fewer files in a torrent, the better.
 
-- Each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
+- Each dataset should be distributed as one ZIP file (or similar archive format) and a corresponding JSON metadata file.
 
-- Each torrent should be capped at 400–500 files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
+- Each torrent should be capped at 400–500 individual files. If a single torrent points to >1000 files, BitTorrent clients may slow down or crash.
 
 
 ### Datasets need not be bundled thematically.
@@ -86,16 +86,16 @@
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
 
-- Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a form of light obfuscation.
+- Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a liight form of obfuscation.
 
 - The master metadata collection will be a fairly small document, so it may pose less of a preservation challenge than the datasets.
 
 
-### If a dataset needs to be removed/revised in the future, it is possible to create a replacement torrent and link to it from the central site.
+### If a dataset needs to be removed/revised in the future, one can create a replacement torrent and link to it from the central source.
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
-- The group of seeders for the original torrent will die out over time.
+- The group of seeders for the original torrent will likely die out over time.
 
 - Relaunching a torrent should be reserved for exceptional cases only.
 
