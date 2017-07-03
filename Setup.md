@@ -8,7 +8,7 @@ Create a new virtual private server. I'm using Ubuntu 16.04 on DigitalOcean, wit
 > <img src="img/DigitalOcean.png" width="800" />
 
 
-`ssh` to the new VPS.
+`ssh` to your new VPS.
 
 ```
 ssh root@your.ip.address.here
@@ -66,7 +66,7 @@ Next, use the included checksum file to verify that everything has arrived intac
 md5sum -c DataRefuge_001_test/_checksums.md5
 ```
 
-If every file passes the check, we're ready to create our torrent. Enter the following command to launch a terminal session in the running Docker container.
+If every file passes the check, we're ready to create our torrent. Enter the following command to launch a shell session in the running Docker container.
 
 
 ```
@@ -94,11 +94,10 @@ Enter the following two commands to kill the running Docker container and restar
 
 ```
 docker rm -f transmission
-
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
 ```
 
-In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'.
+In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'. (You can change them by editing `transmission-daemon/info/settings.json`.)
 
 > <img src="img/Transmission.png" width=800>
 
