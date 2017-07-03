@@ -4,13 +4,11 @@
 
 - **Each torrent should be a bundle of datasets totaling about 10–20 gigabytes.**
 
-  - Few people will bother to seed hundreds of separate 25MB–100MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+  - Few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many people have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
   - Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
 
-  - The point of bundling is that these torrents are aimed at preservation, not everyday use.
-
-  - It is possible to download individual files from within torrents, but it shouldn't be encouraged. If too many people are seeding partial downloads, it can hurt the health of the swarm.
+  - The reason for the bundling model (in response to an imagined naysayer) is that these torrents are aimed at preservation, not everyday use. It is still possible to download individual files from within torrents, but it shouldn't be encouraged. If too many people are seeding partial downloads, it can eventually slow down the swarm.
 
 
 - **Bundles should be issued in a numbered series, with periodic additions to include new datasets.**
