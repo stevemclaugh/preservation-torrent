@@ -104,7 +104,7 @@
 
 - Individuals can participate in the preservation effort without the expertise or disk space required to run a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
-- By issuing a limited set of sequentially numbered bundles, the goal is to stir a desire for completeness in the brains of collectors. Distributing the collection in dozens of torrents instead of hundreds will make mass copying more manageable.
+- By issuing a series of sequentially numbered bundles, the goal is to stir a desire for completeness in the brains of collectors. Distributing the collection in dozens of torrents instead of hundreds will make mass copying more manageable.
 
 - With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that organization ceases to operate, collaboration among collectors may allow the data to continue circulating in a coherent form.
 
