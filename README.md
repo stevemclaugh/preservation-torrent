@@ -5,7 +5,7 @@
 
 ### Each torrent should contain a bundle of datasets, each around 10–20 gigabytes .
 
-- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Some do have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
 - Issuing bundled datasets (rather than one torrent per item) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
