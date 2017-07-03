@@ -105,7 +105,7 @@
 - Individuals can participate in the preservation effort without the expertise or disk space required to operate a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
 - Distributing the collection in dozens of torrents instead of hundreds will make it E-Z to grab en masse. Issuing a limited set of sequentially numbered volumes may well stir a desire for completeness in the brains of collectors.
-
+&nbsp;
 
 ### Further reading
 
