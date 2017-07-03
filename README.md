@@ -118,7 +118,7 @@
 ## *Further reading*
 
 
-Cabanac, Guillaume. “Bibliogifts in LibGen? Study of a Text-Sharing Platform Driven by Biblioleaks and Crowdsourcing.” Journal of the Association for Information Science and Technology, March 27, 2015. doi:10.1002/asi.23445. [ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf](ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf).
+Cabanac, Guillaume. “Bibliogifts in LibGen? Study of a Text-Sharing Platform Driven by Biblioleaks and Crowdsourcing.” *Journal of the Association for Information Science and Technology*, March 27, 2015. doi:10.1002/asi.23445. [ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf](ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf).
 
 Martin, John. “Piracy, Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index.” ASIS&T Annual Meeting, 2016. [https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf).
 
