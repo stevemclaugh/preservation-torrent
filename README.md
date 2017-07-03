@@ -76,7 +76,7 @@
 
     - Instead, assign datasets to bundles roughly chronologically.
 
-- **Metadata for items included in the torrent collection, including checksums and torrent magnet links, should be available for download from a central location.**
+- **Metadata for items included in the torrent collection, along with checksums and torrent magnet links, should be available for download from a central location.**
 
 
 - **It isn't necessary to include extensive human-readable metadata in each torrent.**
