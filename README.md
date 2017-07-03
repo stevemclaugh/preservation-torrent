@@ -3,13 +3,13 @@
 # Guidelines for torrent-based preservation
 
 
-### Each torrent should contain a 10–20GB bundle of datasets.
+### Each torrent should contain a bundle of datasets, totaling 10–20 gigabytes.
 
 - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
 - Issuing bundles (rather than one torrent per dataset) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The central idea is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within a torrent.
+- The purpose of bundling is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within a torrent.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions to include the latest datasets.
@@ -24,7 +24,7 @@
 ```
 
 
-### Each torrent points to a single directory containing several (perhaps several dozen) datasets and their metadata.
+### Each torrent points to a single directory containing several (perhaps several dozen or several hundred) datasets and their metadata.
 
 ```
 📂 DataRefuge_001/
@@ -79,17 +79,17 @@
 - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to torrent bundles in roughly chronological order.
 
 
-### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted organization.
+### Metadata for all datasets, along with checksums, torrent files, and magnet links, should be available from a trusted organization.
 
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
 
 - Remember that filenames are visible to the public via torrent trackers and the distributed hash table. Using UUIDs instead of human-readable filenames is a light form of obfuscation.
 
-- The master metadata collection will be a fairly small document, so it may be less of a preservation risk than the datasets.
+- The complete metadata collection will be a fairly small document, so it may be less of a preservation risk than the datasets.
 
 
-### If a dataset must be retracted/updated, a trusted organization can post a replacement torrent.
+### If a dataset must be retracted/updated, the trusted organization can post a replacement torrent.
 
 - Assiduous collectors will occasionally check their files against the master checksum list and download updated torrents as needed.
 
@@ -100,20 +100,20 @@
 
 ## Benefits of torrent-based preservation
 
-- With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page.
-    - If that organization ceases to operate, collaboration among collectors may permit the data to live on in more-or-less coherent form.
+- With a trusted organization issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that organization ceases to operate, collaboration among collectors may allow the data to continue circulating.
 
-- Individuals can participate in the preservation effort without the expertise or disk space required to run a full mirror. Downloading and seeding just one or two torrents is a real contribution.
+- Individuals can participate in the preservation effort without the expertise or disk space required to operate a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
-- Distributing the collection using dozens of torrents instead of hundreds will make it simple to collect and seed en masse.
-
-- Issuing a limited set of sequentially numbered volumes could potentially spur a desire for completeness among data collectors.
+- Distributing the collection in dozens of torrents instead of hundreds will make it E-Z to grab en masse. Issuing a limited set of sequentially numbered volumes may well stir a desire for completeness in the brains of collectors.
 
 &nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
 <!--
+
+
+Martin, John. 2016. Piracy, "[Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf)."
 
 Tenen and Foxman paper
 
