@@ -106,17 +106,15 @@
 
 - Distributing the collection in dozens of torrents instead of hundreds will make it E-Z to grab en masse. Issuing a limited set of sequentially numbered volumes may well stir a desire for completeness in the brains of collectors.
 
-&nbsp;
 
-
-#### Further reading
+### Further reading
 
 Martin, John. “Piracy, Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index.” ASIS&T Annual Meeting, 2016. [https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf).
 
 
 Tenen, Dennis, and Maxwell Foxman. “Book Piracy as Peer Preservation.” *Computational Culture*, November 9, 2014. [http://computationalculture.net/article/book-piracy-as-peer-preservation](http://computationalculture.net/article/book-piracy-as-peer-preservation).
 
-
+&nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
