@@ -99,7 +99,7 @@ docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:
 
 In your browser, navigate to `your.ip.address.here:9091`. The default username and password are 'admin' and 'admin'. (You can change them by editing `/home/transmission-daemon/info/settings.json`.)
 
-> <img src="img/Transmission.png" width=800>
+> <img src="img/Transmission.png" width="800" />
 
 Once Transmission finishes verifying your data, it will seed the files for anyone who opens the torrent file we just created at `/home/transmission-daemon/info/torrents/DataRefuge_001_test.torrent`. Download that file using an FTP client and share it with others.
 
