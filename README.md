@@ -81,6 +81,8 @@
 
 ### Metadata for all datasets, along with checksums, torrent files, and magnet links, should be available from a trusted organization.
 
+- It should be possible to download all metadata in a single package, whether through an API or from a periodically updated static file.
+
 
 ### It isn't necessary to include extensive metadata in each torrent.
 
