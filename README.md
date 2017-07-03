@@ -13,7 +13,7 @@
   - It is possible to download individual files from within torrents, but it shouldn't be encouraged. If too many people are seeding partial downloads, it can hurt the health of the swarm.
 
 
-- **Bundles should be issued in a numbered series, with periodic additions to include new datasets:**
+- **Bundles should be issued in a numbered series, with periodic additions to include new datasets.**
 
 ```
 📄 DataRefuge_001.torrent
@@ -24,7 +24,7 @@
 📄 ...
 ```
 
-- **Each torrent contains a single directory containing datasets and metadata:**
+- **Each torrent contains a single directory containing datasets and metadata.**
 
 ```
 📂 DataRefuge_001/
@@ -36,7 +36,7 @@
     📄 ...
     📄 README.txt
 
-📂 DataRefuge_001/
+📂 DataRefuge_002/
     📄 _checksums.md5
     📄 dataset-uuid-456.zip
     📄 dataset-uuid-456.json
