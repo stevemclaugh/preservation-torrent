@@ -76,9 +76,7 @@
 
 ### Datasets need not be bundled thematically.
 
-- Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
-
-- Instead, assign datasets to torrent bundles in roughly chronological order.
+- Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time. Instead, assign datasets to torrent bundles in roughly chronological order.
 
 
 ### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted organization.
