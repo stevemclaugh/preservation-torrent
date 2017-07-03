@@ -9,7 +9,7 @@ Create a new virtual private server. I'm using Ubuntu 16.04 on DigitalOcean, wit
 > <img src="img/DigitalOcean.png" width="800" />
 
 
-Start an `ssh` session on your new VPS.
+`ssh` to the new VPS.
 
 ```
 ssh root@your.ip.address.here
@@ -61,13 +61,13 @@ zip -r DataRefuge_001_test.zip DataRefuge_001_test/
 -->
 
 
-Use the included checksum file to verify that everything has arrived intact. This may take a few minutes.
+Next, use the included checksum file to verify that everything has arrived intact. This may take a few minutes.
 
 ```
 md5sum -c DataRefuge_001_test/_checksums.md5
 ```
 
-If every file passes the check, we're ready to create our torrent file. Enter the following command to launch a terminal session in our running Docker container.
+If every file passes the check, we're ready to create our torrent. Enter the following command to launch a terminal session in the running Docker container.
 
 
 ```
@@ -80,7 +80,7 @@ Now `cd` to the `Downloads` directory.
 cd /var/lib/transmission-daemon/Downloads
 ```
 
-The following command will create a torrent file for the directory `DataRefuge_001_test/`, which will be saved to `transmission-daemon/info/torrents/DataRefuge_001_test.torrent`.
+The following command creates a torrent file for `DataRefuge_001_test/`, which is saved to `transmission-daemon/info/torrents/DataRefuge_001_test.torrent`.
 
 ```
 transmission-create -n DataRefuge_001_test/ \
