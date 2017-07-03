@@ -5,11 +5,11 @@
 
 ### Each torrent should contain a bundle of datasets totaling around 10–20 gigabytes.
 
-- Very few potential participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-- Issuing data in bundles decreases the odds that individual torrents will slip through the cracks and no longer be seeded.
+- Issuing datasets in bundles decreases the odds that less in-demand datasets will slip through the cracks and no longer be seeded.
 
-- The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. If users have limited disk space, it is still possible to download individual files from within torrents. 
+- The reason for the bundled model is that these torrents are aimed at preservation, not everyday use. If users have limited disk space, it is still possible to download individual files from within torrents.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions for new datasets.
@@ -23,7 +23,8 @@
 📄 ...
 ```
 
-### Each torrent contains a single directory with several (perhaps several dozen) datasets and their metadata.
+
+### Each torrent comprises a single directory containing several (perhaps several dozen) datasets and their metadata.
 
 ```
 📂 DataRefuge_001/
@@ -54,7 +55,8 @@
     📄 ...
 ```
 
-### Larger datasets can be issued as a numbered 'bundle' containing a single item.
+
+### Larger datasets can be issued as a numbered torrent containing a single item.
 
 ```
 📂 DataRefuge_019/
@@ -64,9 +66,10 @@
     📄 README.txt
 ```
 
+
 ### The fewer individual files in a torrent bundle, the better.
 
-- In these torrents, each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
+- Each dataset should be distributed as one ZIP file (or comparable archive format) and a corresponding JSON metadata file.
 
 - Each torrent should be capped at 400–500 files. If a single torrent points to >1000 files, people's bittorrent clients may slow down or crash.
 
@@ -75,9 +78,11 @@
 
 - Because you can't add files to an existing torrent, thematically organized collections become unmanageable over time.
 
-- Instead, assign datasets to bundles in roughly chronological order.
+- Instead, assign datasets to torrent bundles in roughly chronological order.
 
-### Metadata for items included in the torrent collection, along with checksums and torrent magnet links, should be available for download from a trusted source.
+
+### Metadata for all items included in the torrent collection, along with checksums and torrent magnet links, should be available for download from a trusted source.
+
 
 ### It isn't necessary to include extensive human-readable metadata in each torrent.
 
