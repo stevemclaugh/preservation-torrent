@@ -100,13 +100,14 @@
 
 - Distributing the collection in dozens of torrents instead of hundreds will make it easy to collect and seed en masse.
 
-- Issuing a limited set of sequentially numbered volumes stirs up a yen for completeness in the collector.
+- Issuing a limited set of sequentially numbered volumes may stir up a desire for completeness among collectors.
 
-- With a central body issuing torrent files and metadata, the system is centralized enough to keep people orchestrated, but decentralized enough to allow the full collection to potentially outlive the originsting body itself.
+- With a trusted body issuing torrent files and metadata, the system is centralized enough to keep people on the same page. If that body ceases its operations, the structure is decentralized enough to allow the collection to live on in a more-or-less coherent form.
 
 &nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
+
 <!--
 
 Tenen and Foxman paper
