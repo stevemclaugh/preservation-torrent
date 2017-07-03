@@ -12,7 +12,7 @@
 - The point of this model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
 
 
-### Metadata for all datasets, along with BitTorrent files and checksums, should be available from a trusted source.
+### Metadata for all datasets, along with torrent files and checksums, should be available from a trusted source.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions to reflect the latest datasets.
