@@ -29,7 +29,7 @@ Next, download the Docker container we'll be using: my fork of [dperson's contai
 docker pull stevemclaugh/transmission
 ```
 
-When it finishes downloading, enter the following command to run the container in detached mode. This will create several new directories in your file system under `/home/transmission-daemon/`.
+When it finishes downloading, enter the following command to run the container in detached mode. This will create several new directories in your server's file system under `/home/transmission-daemon/`.
 
 ```
 docker run --name transmission -it -d -p 51413:51413 -p 51413:51413/udp -p 9091:9091 -v /home/transmission-daemon:/var/lib/transmission-daemon stevemclaugh/transmission
