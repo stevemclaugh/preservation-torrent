@@ -3,7 +3,7 @@
 # Guidelines for torrent-based preservation
 
 
-### Each torrent should contain a bundle of datasets, around 10–20 gigabytes per torrent.
+### Each torrent should contain a 10–20GB bundle of datasets.
 
 - Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
