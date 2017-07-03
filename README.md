@@ -3,13 +3,13 @@
 # Guidelines for torrent-based preservation
 
 
-### Each torrent should contain a bundle of datasets totaling around 10–20 gigabytes.
+### Each torrent should contain a bundle of datasets, each around 10–20 gigabytes .
 
-- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Some have plenty of storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
+- Very few participants will bother to seed hundreds of separate 25MB–100MB torrents. Many have storage and bandwidth to spare, but screen space is limited and managing long lists of files is tedious.
 
-- Issuing datasets in bundles decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
+- Issuing bundled datasets (rather than one torrent per item) decreases the odds that less in-demand items will slip through the cracks and no longer be seeded.
 
-- The point of the bundled model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is possible to download selected files from within torrents.
+- The point of the bundled model is that these torrents are aimed at preservation, not everyday use. If someone has limited disk space, it is still possible to download individual files from within torrents.
 
 
 ### Torrents should be issued in a numbered series, with periodic additions for new datasets.
