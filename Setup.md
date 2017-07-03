@@ -3,7 +3,6 @@
 
 # Setup guide: Creating and seeding a torrent on a VPS
 
-
 Create a new virtual private server. I'm using Ubuntu 16.04 on DigitalOcean, with Docker 17.05.0-ce pre-installed.
 
 > <img src="img/DigitalOcean.png" width="800" />

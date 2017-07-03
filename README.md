@@ -105,19 +105,25 @@
 - Individuals can participate in the preservation effort without the expertise or disk space required to operate a full mirror. Downloading and seeding just one or two torrents is a real contribution.
 
 - Distributing the collection in dozens of torrents instead of hundreds will make it E-Z to grab en masse. Issuing a limited set of sequentially numbered volumes may well stir a desire for completeness in the brains of collectors.
-&nbsp;
-
-### Further reading
-
-Martin, John. “Piracy, Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index.” ASIS&T Annual Meeting, 2016. [https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf).
 
 
-Tenen, Dennis, and Maxwell Foxman. “Book Piracy as Peer Preservation.” *Computational Culture*, November 9, 2014. [http://computationalculture.net/article/book-piracy-as-peer-preservation](http://computationalculture.net/article/book-piracy-as-peer-preservation).
 
 &nbsp;
 
 #### [*>> Setup guide: Creating and seeding a torrent on a VPS*](Setup.md)
 
+
+&nbsp;
+
+## *Further reading*
+
+
+Cabanac, Guillaume. “Bibliogifts in LibGen? Study of a Text-Sharing Platform Driven by Biblioleaks and Crowdsourcing.” Journal of the Association for Information Science and Technology, March 27, 2015. doi:10.1002/asi.23445. [ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf](ftp://ftp.irit.fr/IRIT/SIG/2015_JASIST_C.pdf).
+
+Martin, John. “Piracy, Public Access, and Preservation: An Exploration of Sustainable Accessibility in a Public Torrent Index.” ASIS&T Annual Meeting, 2016. [https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf](https://osf.io/preprints/socarxiv/hzp6r/download?format=pdf).
+
+
+Tenen, Dennis, and Maxwell Foxman. “Book Piracy as Peer Preservation.” *Computational Culture*, November 9, 2014. [http://computationalculture.net/article/book-piracy-as-peer-preservation](http://computationalculture.net/article/book-piracy-as-peer-preservation).
 
 
 
